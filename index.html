@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Carga Horaria</title>
+
+    <style>
+        .container {
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 15px;
+        }
+
+        span {
+            border-right: 1px dashed #ccc;
+        }
+
+        #table-2 {
+            border: none;
+        }
+        
+        .borda {
+            border-top: none;
+            border-left: none;
+            border-bottom: none;
+            border-right: 1px dashed #ccc;
+            padding: 2px    ;
+        }
+
+        .th-td-1 {
+            width: 6%;
+            font-weight: bold;
+        }
+
+        .seg {
+            width: 10%;
+        }
+
+        .ter {
+            width: 40%;
+        }
+
+        .sab {
+            width: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <caption>1INFO3</caption>
+            <thead>
+                <tr>
+                    <th class="th-td-1"></th>
+                    <th class="seg">SEG</th>
+                    <th class="ter">TER</th>
+                    <th>QUA</th>
+                    <th>QUI</th>
+                    <th>SEX</th>
+                    <th class="sab">SAB</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="th-td-1">Aula 1 M</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 2 M</td>
+                    <td rowspan="2">Geografia <br>
+                        Paulo Almeida <br>
+                        E207
+                    </td>
+                    <td rowspan="2">Química <br> Renata H. <br> E206</td>
+                    <td rowspan="2">Intr. Comp. <br>
+                        Daniel Santos <br>
+                        A11</td>
+                    <td rowspan="2">Fisica <br>
+                        Marcelo Salvador <br>
+                        E207</td>
+                    <td rowspan="2"> Biologia <br>
+                        Héder, Substituto Biologia <br>
+                        E206</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 3 M</td>
+                    <td>---</td>
+                </tr>
+                <tr>
+                    <td class="th-td-1">Intervalo M</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 4 M</td>
+                    <td rowspan="2">História <br>
+                        Ivan Furmann <br>
+                        E207</td>
+                    <td rowspan="2">Ed. Fisica <br>
+                        Jonathan Dias <br>
+                        Ginásio</td>
+                    <td rowspan="2">Projeto Integrador <br>
+                        Naylor, Kennedy <br>
+                        A11</td>
+                    <td rowspan="2">Lingua Portuguesa <br>
+                        Rosicler <br>
+                        E207</td>
+                    <td rowspan="2">Artes <br>
+                        Alessandra <br>
+                        Sala_Artes</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 5 M</td>
+                    <td>---</td>
+                    </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 6 M</td>
+                    <td>---</td>
+                    <td class="matematica">Matematica <br>
+                        Vanessa Neves <br>
+                        E204</td>
+                    <td>Lingua Portuguesa <br>
+                        Rosicler <br>
+                        E207</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Almoço</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 1 V</td>
+                    <td rowspan="3">Desenvolvimento Web <br> João Orlando <br> B3</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>--- </td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 2 V</td>
+                    <td rowspan="2"> 
+                        <table id="table-2">
+                            <tbody>
+                                <tr class="tr-1">
+                                    <td class="borda">1INFO3A</td>
+                                    <td class="borda">1INFO1B, 1INFO2B, 1INFO3B</td>
+                                    <td class="borda">1INFO1C, 1INFO2C, 1INFO3C</td>
+                                </tr>
+
+                                <tr class="tr-1">
+                                    <td class="borda">CLIFC</td>
+                                    <td class="borda">Tóp. Ciênc. Hum. e Tecnol.</td>
+                                    <td class="borda">Matemática Básica (Optativa)</td>
+                                </tr>
+
+                                <tr class="tr-1">
+                                    <td class="borda"></td>
+                                    <td class="borda">Roberto, Casemiro</td>
+                                    <td class="borda">Jean</td>
+                                </tr>
+
+                                <tr class="tr-1">
+                                    <td class="borda"></td>
+                                    <td class="borda">B3</td>
+                                    <td class="borda">E206</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td rowspan="2" class="matematica">Matematica <br>
+                        Vanessa Neves <br>
+                        E207</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 3 V</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Intervalo V</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 4 V</td>
+                    <td rowspan="2">1INFO3A <br> CLIFC</td>
+                    <td rowspan="2">Programação <br>
+                        Fabio Moura, Daniel Santos <br>
+                        B3</td>
+                    <td rowspan="2">Programação <br>
+                        Fabio Moura, Daniel Santos <br>
+                        B3</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 5 V</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+                  <tr>
+                    <td class="th-td-1">Aula 6 V</td>
+                    <td>---</td>
+                    <td>---</td>        
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
